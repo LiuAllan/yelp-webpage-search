@@ -1,6 +1,26 @@
+<!DOCTYPE html>
 <html>
-<h1>Hello World!</h1>
-  <p>
-    test
-  </p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Made with Thimble</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"
+          integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+          crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+
+  <h1>Yelp Search</h1>
+  <nav>
+    <input id="search-term" type="search" placeholder="Food type, Restaurant, ...">
+    <button id="search-button">
+      <i class="fa fa-search"></i>
+    </button>
+  </nav>
+  <div id="error-message"></div>
+  <article id="search-results"></article>
+</body>
 </html>
