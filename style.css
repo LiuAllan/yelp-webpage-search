@@ -1,0 +1,41 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.business {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid lightgrey;
+  display: flex;
+}
+
+.businessHeader {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.business img {
+  height: 75px;
+}
+
+.business .name {
+  font-style: italic;
+}
+
+.businessDetails {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out ;
+}
+
+.businessDetailsOpen {
+  max-height: 75px;
+}
